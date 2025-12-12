@@ -135,7 +135,7 @@ const Sidebar = () => {
         )}
         onClick={playClick}
       >
-        <Trophy />
+        <Trophy className="shrink-0" />
         <span className="max-lg:hidden">Achievements</span>
       </Link>
       <Link
@@ -151,6 +151,7 @@ const Sidebar = () => {
         <Sparkles
           // size={32}
           className={clsx(
+            'shrink-0',
             pathWithoutLocale !== '/preferences' && 'motion-safe:animate-bounce'
           )}
         />
