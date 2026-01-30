@@ -55,7 +55,7 @@ const SHOW_STATS_LINE = true;
 //   { kana: 'た', romaji: 'ta' },
 // ];
 
-// Simple Kanji: 21 visually simple, high-frequency kanji with clear meanings and minimal strokes
+// Simple Kanji: 29 visually simple, high-frequency kanji with clear meanings and minimal strokes
 const DEMO_KANJI = [
   { kanji: '一', meaning: 'one', reading: 'ichi' },
   { kanji: '二', meaning: 'two', reading: 'ni' },
@@ -79,6 +79,15 @@ const DEMO_KANJI = [
   { kanji: '七', meaning: 'seven', reading: 'nana' },
   { kanji: '六', meaning: 'six', reading: 'roku' },
   { kanji: '五', meaning: 'five', reading: 'go' },
+  // 8 pictographic kanji for visual learning
+  { kanji: '雨', meaning: 'rain', reading: 'ame' },
+  { kanji: '田', meaning: 'field', reading: 'ta' },
+  { kanji: '猫', meaning: 'cat', reading: 'neko' },
+  { kanji: '虫', meaning: 'insect', reading: 'mushi' },
+  { kanji: '火', meaning: 'fire', reading: 'hi' },
+  { kanji: '水', meaning: 'water', reading: 'mizu' },
+  { kanji: '子', meaning: 'child', reading: 'ko' },
+  { kanji: '女', meaning: 'woman', reading: 'onna' },
 ];
 
 // Simple Vocabulary: 10 easy, practical Japanese words
